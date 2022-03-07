@@ -21,11 +21,13 @@ namespace OOP3
 
             CreditApplicationManager creditApplicationManager = new CreditApplicationManager();
             creditApplicationManager.AppealCredit(consumerCreditManager, databaseLoggerService);
-            creditApplicationManager.AppealCredit(housingCreditManager, fileLoggerService);
 
             List<ICreditManager> credits = new List<ICreditManager>() {consumerCreditManager, vehicleCreditManager, housingCreditManager };
 
             //creditApplicationManager.CreditPreliminaryInformation(credits);
+
+            creditApplicationManager.AppealCredit(new BussinesCreditManager(), fileLoggerService);
+            creditApplicationManager.AppealCredit(new BussinesCreditManager(), new SmsLoggerService());
         }
     }
 }
