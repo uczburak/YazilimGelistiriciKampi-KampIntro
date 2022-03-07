@@ -9,10 +9,13 @@ namespace OOP3
     class CreditApplicationManager
     {
         //Method Injection
-        public void AppealCredit(ICreditManager creditManager, ILoggerService loggerService)
+        public void AppealCredit(ICreditManager creditManager, List<ILoggerService> loggerServices)
         {
             creditManager.Calculate();
-            loggerService.Log();
+            foreach (var loggerService in loggerServices)
+            {
+                loggerService.Log();
+            }
         }
 
         public void CreditPreliminaryInformation(List<ICreditManager> credits)
