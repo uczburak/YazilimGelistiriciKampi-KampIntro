@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mathematic", "Mathematic\Mathematic.csproj", "{E4852DAE-9596-4653-BC20-27F0E87045C9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DegerVeReferansTipler", "DegerVeReferansTipler\DegerVeReferansTipler.csproj", "{7779BE65-995D-4805-A3C4-EE5B33E3C222}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValueReferanceTypes", "DegerVeReferansTipler\ValueReferanceTypes.csproj", "{7779BE65-995D-4805-A3C4-EE5B33E3C222}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP1", "OOP1\OOP1.csproj", "{0E3F7695-20BA-462D-8123-A60EB435F279}"
 EndProject
