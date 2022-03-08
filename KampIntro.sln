@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP1", "OOP1\OOP1.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{EF8AEB30-FB86-4F18-9A22-322A3BD0BD15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP2", "OOP2\OOP2.csproj", "{744C8BF1-E451-4B77-9A0E-A0ED03B83BAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP2", "OOP2\OOP2.csproj", "{744C8BF1-E451-4B77-9A0E-A0ED03B83BAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP3", "OOP3\OOP3.csproj", "{8269F292-5DFF-4DFB-A217-A9982ECD3E91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP3", "OOP3\OOP3.csproj", "{8269F292-5DFF-4DFB-A217-A9982ECD3E91}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDict", "Mydict\MyDict.csproj", "{C6C21CB3-E56D-4ED8-9344-6A871C04187C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{8269F292-5DFF-4DFB-A217-A9982ECD3E91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8269F292-5DFF-4DFB-A217-A9982ECD3E91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8269F292-5DFF-4DFB-A217-A9982ECD3E91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6C21CB3-E56D-4ED8-9344-6A871C04187C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6C21CB3-E56D-4ED8-9344-6A871C04187C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6C21CB3-E56D-4ED8-9344-6A871C04187C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6C21CB3-E56D-4ED8-9344-6A871C04187C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
